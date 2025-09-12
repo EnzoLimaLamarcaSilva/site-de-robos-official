@@ -1,0 +1,53 @@
+body{
+    background: linear-gradient(to right, black, rgb(199, 199, 199), grey, purple );
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+nav a{
+    margin-right: 8px;
+}
+
+
+p{
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover{
+    transition: ease;
+    transition-duration: 1.0s;
+    background-color: rgb(139, 137, 137);
+    padding: 0px 4px;
+    border-radius: 4px;
+}
+
+a:active{
+    transition: ease;
+    transition-duration: 1.0s;
+    background-color: rgb(139, 137, 137);
+    padding: 0px 4px;
+    border-radius: 4px;
+    }
+
+.video-inicial iframe{
+    width: 340px;
+    height: 340px;
+    border-radius: 16px;
+}
+
+.video-dois iframe{
+    width: 340;
+    height: 340px;
+    border-radius: 16px;
+}
+
+.endereco iframe{
+    width: 340;
+    height: 340px;
+    border-radius: 16px;
+}
